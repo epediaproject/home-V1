@@ -1,0 +1,231 @@
+header p {
+        color: white;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .list-kategori {
+        width: 100%;
+        margin-top: -30px;
+        padding: 0px;
+        display: grid;
+        grid-row-gap: 17px;
+    }
+
+    .list-card {
+        z-index: 1;
+        width: 100%;
+        border-radius: 0px;
+        padding: 0px;
+        background: white;
+        align-items: center;
+        box-shadow: 0 0 7px rgba(0,0,0,0.2);
+    }
+
+    .icon-card {
+        background: rgba(32,49,95,0.1);
+        border-radius: 100px;
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .icon-card img {
+        margin-top: 15px;
+    }
+
+    .card-p p {
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .title {
+        font-weight: 600;
+    }
+
+    .deskripsi {
+        font-size: 15px;
+        color: #525252;
+    }
+
+    .card-deskripsi {
+        padding: 20px;
+        background: white;
+        border-radius: 6px;
+        box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    }
+
+    .deskripsi-title {
+        color: black;
+        font-size: 19px;
+        font-weight: 550;
+    }
+
+    .card-deskripsi-p p, span {
+        margin: 0;
+    }
+
+    .card-deskripsi-p p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .card-deskripsi-p span {
+        font-size: 14px;
+    }
+    .card-botton{
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    border-color: #000;
+    	}
+    p{
+    	color: #000;
+    	}
+    a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+
+.modal.modal-left .modal-dialog,
+.modal.modal-right .modal-dialog,
+.modal.modal-top .modal-dialog,
+.modal.modal-bottom .modal-dialog {
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+/* Left & Right */
+
+.modal.modal-left .modal-dialog,
+.modal.modal-right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 500px;
+  max-width: 100%;
+  height: 100%;
+}
+
+.modal.modal-left .modal-content,
+.modal.modal-right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.modal-left .modal-body,
+.modal.modal-right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+.modal.modal-left.fade .modal-dialog {
+  left: -500px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.modal-left.fade.show .modal-dialog {
+  left: 0;
+}
+
+.modal.modal-right.fade .modal-dialog {
+  right: -500px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.modal-right.fade.show .modal-dialog {
+  right: 0;
+}
+
+.modal.modal-left .modal-content,
+.modal.modal-right .modal-content,
+.modal.modal-top .modal-content,
+.modal.modal-bottom .modal-content,
+.modal.modal-full .modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal.modal-left .modal-dialog.modal-sm,
+.modal.modal-right .modal-dialog.modal-sm {
+  width: 300px;
+}
+
+.modal.modal-left .modal-dialog.modal-lg,
+.modal.modal-right .modal-dialog.modal-lg {
+  width: 800px;
+}
+
+.modal.modal-left .modal-dialog.modal-xl,
+.modal.modal-right .modal-dialog.modal-xl {
+  width: 1140px;
+}
+
+
+/* Full Screen */
+
+.modal.modal-full .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.modal.modal-full .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.modal-full .close-modal {
+  position: fixed;
+  top: 0;
+  right: 3rem;
+}
+
+/* Footer */
+
+.modal-footer-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 0;
+}
+
+/* XS */
+
+.modal.modal-left.xs .modal-body,
+.modal.modal-right.xs .modal-body {
+  padding: 15px;
+}
+
+/* Full screen modal menu indicators */
+
+a.has-sub:after { font-family: "FontAwesome"; }
+a.has-sub:after { content: "\f107"; margin-left: 1rem; }
+a.has-sub[aria-expanded="true"]:after { content: "\f106"; }
