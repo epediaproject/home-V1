@@ -1,28 +1,4 @@
-header p {
-        color: white;
-        font-weight: 600;
-        font-size: 25px;
-    }
-
-    .list-kategori {
-        width: 100%;
-        margin-top: -30px;
-        padding: 0px;
-        display: grid;
-        grid-row-gap: 17px;
-    }
-
-    .list-card {
-        z-index: 1;
-        width: 100%;
-        border-radius: 0px;
-        padding: 0px;
-        background: white;
-        align-items: center;
-        box-shadow: 0 0 7px rgba(0,0,0,0.2);
-    }
-
-    .icon-card {
+.icon-card {
         background: rgba(32,49,95,0.1);
         border-radius: 100px;
         width: 60px;
